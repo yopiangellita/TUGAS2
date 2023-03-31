@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nilai A"
+        android:inputType="number"
+        android:padding="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_below="@+id/edit1"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nilai B"
+        android:inputType="number"
+        android:padding="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="252dp"
+        android:layout_below="@+id/edit2"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sum"
+        tools:ignore="MissingConstraints"
+        android:background="@color/purple_500"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="338dp"
+        android:layout_below="@+id/edit3"/>
+
+
+</LinearLayout>
